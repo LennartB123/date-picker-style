@@ -149,8 +149,8 @@
   text-align: center;
   vertical-align: middle;
   min-width: 32px;
-  width: 32px;
-  height: 32px;
+  width: 2.5rem;
+  height: 2.5rem;
   line-height: 32px;
   font-size: 12px;
   border-radius: 0px;
@@ -281,9 +281,10 @@
 
 .daterangepicker .drp-buttons .btn {
   margin-left: 8px;
-  font-size: 12px;
-  font-weight: bold;
-  padding: 4px 8px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 1rem;
+  text-transform: capitalize;
 }
 
 .daterangepicker.show-ranges.single.rtl .drp-calendar.left {
